@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/transaction-example
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
